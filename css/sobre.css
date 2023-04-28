@@ -313,7 +313,7 @@ footer {
   }
 
   .conteudo-info {
-    padding-left: 40px;
+    gap: 10px;
     display: flex;
     flex-direction: column;
   }
@@ -328,13 +328,13 @@ footer {
     flex-direction: column;
     justify-content: center;
     gap: 10px;
+    margin-left: 12px;
     margin-top: 30px;
     padding-left: 12px;
     padding-right: 12px;
   }
 
   .conteudo-item-image {
-    padding-left: 70px;
     width: 300px;
     height: 431.66px;
   }
@@ -344,7 +344,6 @@ footer {
   }
 
   .conteudo-item-info {
-    padding-left: 70px;
     padding-top: 10px;
   }
 
@@ -362,13 +361,16 @@ footer {
   }
 
   .conteudo-titulo-texto {
-    margin-right: 70px;
-    gap: 0px;
+    margin-right: 50px;
   }
 
   .conteudo-titulo {
     font-size: 26px;
-    margin-right: 34px;
+    
+  }
+
+  .back-top {
+    margin-right: 0;
   }
 
    footer {
